@@ -1,0 +1,50 @@
+1. What is JWT?
+2. Why do we use JWT in authentication?
+3. What are the main parts of a JWT?
+4. How does JWT authentication work?
+5. Where do we store the JWT token in frontend applications?
+6. What is the difference between session-based authentication and JWT-based authentication?
+7. What does the payload of a JWT contain?
+8. What is the use of the secret key in JWT?
+9. How can you create a JWT in Node.js?
+10. How can you verify a JWT token in Node.js?
+11. What happens if someone tampers with the JWT token?
+12. What status code should be sent if the JWT is missing or invalid?
+13. What does `jwt.sign()` do?
+14. What does `jwt.verify()` do?
+15. What is middleware in Express and how is it used to protect routes?
+16. What is the role of the Authorization header in JWT authentication?
+17. Why do we hash passwords before saving them to the database?
+18. How can you protect a route so that only logged-in users can access it?
+19. What happens when the JWT expires?
+20. How can you set an expiration time for a JWT token?
+21. How do you handle login and registration in a Node.js + Express app?
+22. What library do you use to hash passwords in Node.js?
+23. Can JWT be decoded without a secret key?
+24. What is the difference between localStorage and cookies for storing tokens?
+25. What is CORS and why is it needed?
+26. What is the purpose of `express.json()`?
+27. What happens if you don’t use `express.json()`?
+28. What is the use of `dotenv` in Node.js projects?
+29. How can you hide sensitive keys like DB URLs and JWT secrets in your project?
+30. What does `bcrypt.hash()` do?
+31. What does `bcrypt.compare()` do?
+32. What is the structure of a basic Express app for authentication?
+33. What are the common HTTP status codes used in auth?
+34. How do you return a JSON response from an Express route?
+35. What is the difference between `res.send()` and `res.json()`?
+36. What is JWT and how does it work?
+37. Why use JWT over sessions or cookies?
+38. What is the structure of a JWT token?
+39. How is a JWT verified on the server?
+40. What is the difference between localStorage, sessionStorage, and cookies in context of storing JWT?
+41. What are the risks of storing JWT in localStorage?
+42. What is the purpose of the Authorization header?
+43. Why is it important to hash passwords before storing them?
+44. What is the difference between bcrypt and bcryptjs?
+45. Why do we use expiresIn in JWTs?
+46. Can JWT be revoked? How do you handle logout with JWTs?
+47. How do you protect against JWT tampering or token reuse?
+48. What happens if someone tries to access a protected route without a token?
+49. What’s the difference between 401 Unauthorized and 403 Forbidden?
+50. What will happen if you forget to call next() in middleware?
